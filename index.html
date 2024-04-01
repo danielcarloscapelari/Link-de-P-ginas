@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha páginas</title>
+    <style>
+        /* Body background color */
+        body {
+            background-color: #f0f0f0; /* light grey */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Header color */
+        h1 {
+            color: #333; /* dark grey */
+            margin-top: 20px; /* Adjust the top margin as needed */
+        }
+
+        /* List item colors */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            color: #0066cc; /* blue */
+            padding: 10px;
+            cursor: pointer;
+            font-size: 24px;
+            border: 1px solid #000;
+        }
+
+        /* Navigation arrows color */
+        #setae, .setad {
+            color: #cc0000; /* red */
+        }
+
+        /* Change color on hover */
+        li:hover {
+            color: #666; /* grey */
+        }
+    </style>
+</head>
+
+<body cz-shortcut-listen="true">
+    <h1>Link de Páginas</h1>
+
+    <div>
+        <ul>
+            <li id="setae">≪</li>
+            <li class="a">1</li>
+            <li class="b">2</li>
+            <li class="c">3</li>
+            <li class="setad">≫</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
